@@ -1,0 +1,31 @@
+{
+  "name": "astro-jscs",
+  "version": "1.0.0",
+  "description": "An Astro module that performs JSCS style checking",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CollinEstes@github.com/CollinEstes/astro-jscs.git"
+  },
+  "keywords": [
+    "Astro",
+    "build",
+    "asset",
+    "pipeline",
+    "jscs",
+    "style",
+    "checking"
+  ],
+  "author": "Collin Estes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollinEstes/astro-jscs/issues"
+  },
+  "homepage": "https://github.com/CollinEstes/astro-jscs#readme",
+  "dependencies": {
+    "jscs": "^1.13.1"
+  }
+}

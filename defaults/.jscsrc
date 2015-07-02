@@ -1,4 +1,5 @@
 {
+	"excludeFiles": ["node_modules/**"],
 	"preset": "node-style-guide",
 	"requireCapitalizedComments": null,
 	"requireSpaceAfterLineComment": null,
