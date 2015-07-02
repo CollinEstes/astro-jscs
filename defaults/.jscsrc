@@ -1,0 +1,6 @@
+{
+	"preset": "node-style-guide",
+	"requireCapitalizedComments": null,
+	"requireSpaceAfterLineComment": null,
+	"esnext": true
+}
