@@ -31,7 +31,7 @@ function buildArgs (projectDir, options) {
 		args.push('--esnext')
 	}
 
-	args.push('--config=' + configFile);
+	// args.push('-c=' + configFile);
 
 	return args;
 }
