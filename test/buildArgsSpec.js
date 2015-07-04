@@ -28,7 +28,6 @@ describe('buildArgs.js', function () {
 
 	it('should have options in string array', function () {
 		var args = buildArgs(this.mockPath, this.allOptions).join(' ');
-		console.log(args);
 		expect(args.indexOf('--fix')).to.not.equal(-1);
 		expect(args.indexOf('--preset=google')).to.not.equal(-1);
 	});
