@@ -23,7 +23,7 @@ function buildArgs (projectDir, options) {
 
 	// present standard
 	if(options.preset) {
-		args.push('--preset=' + options.present);
+		args.push('--preset=' + options.preset);
 	}
 
 	// allow es6

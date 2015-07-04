@@ -1,10 +1,10 @@
 {
   "name": "astro-jscs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An Astro module that performs JSCS style checking",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "astro test"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "homepage": "https://github.com/CollinEstes/astro-jscs#readme",
   "dependencies": {
     "jscs": "^1.13.1"
+  },
+  "devDependencies": {
+    "astro": "^0.1.6"
   }
 }
